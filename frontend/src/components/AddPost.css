@@ -1,0 +1,60 @@
+.add-post-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.add-post-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.form-row {
+  margin-bottom: 16px;
+}
+
+.select-input,
+.tag-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #2f80ed;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1c6ddb;
+}
+
+.success-msg {
+  margin-top: 16px;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}

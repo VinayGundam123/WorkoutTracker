@@ -1,0 +1,33 @@
+/* Navbar Styles */
+.nav-bar {
+    background-color: rgba(129, 122, 122, 0.658);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 15px;
+}
+
+/* Navbar Button Styles */
+.nav-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logout{
+    background-color: rgba(225, 50, 50, 0.633);
+}
+.nav-button:hover {
+    background: #0056b3;
+}
+
+.nav-button:active {
+    transform: scale(0.95);
+}

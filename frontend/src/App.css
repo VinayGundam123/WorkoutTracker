@@ -1,0 +1,53 @@
+
+/* Main content takes up available space */
+.main-content {
+  flex: 1;
+}
+html,body{
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Social media section */
+.social-media {
+  position: relative;
+  bottom: 0;
+  background-color:  rgba(129, 122, 122, 0.658);
+  text-align: center;
+  padding: 5px 0;
+}
+
+.social-media p {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.social-media a {
+  color: #1DA1F2;
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* Ensure full height layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+

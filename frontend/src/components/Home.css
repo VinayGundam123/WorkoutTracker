@@ -1,0 +1,311 @@
+/* Navbar Styles */
+.nav-bar {
+    background-color: rgba(129, 122, 122, 0.658);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 15px;
+}
+
+/* Navbar Button Styles */
+.nav-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    background: #0056b3;
+}
+
+.nav-button:active {
+    transform: scale(0.95);
+}
+
+/* Card Container */
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Individual Card Type */
+.card-type {
+    background: #9e3daf;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 15px 40px;
+    margin: 20px;
+    width: 150px;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Updated Button Styles for Card Type */
+.card-type-button {
+    background: #ff5722; /* Changed to a vibrant orange */
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.card-type-button-completed{
+    background:rgb(0, 255, 21); /* Vibrant orange */
+    color: rgba(0, 0, 0, 0.359);
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);  
+}
+
+/* Hover & Active States */
+.card-type-button:hover {
+    background: #e64a19; /* Darker shade on hover */
+    transform: scale(1.05);
+}
+
+.card-type-button:active {
+    transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .nav-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-type {
+        width: 80%;
+    }
+}
+
+
+.group {
+    background: #f4f4f4; /* Light background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Group Title */
+.group h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Group-Warmup Box */
+.group-warmup {
+    background: #ffffff; /* White background for contrast */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    border-left: 5px solid #ff5722; /* Accent color */
+}
+
+/* Warm-up Buttons */
+.group-buttton {
+    background: #ff5722; /* Vibrant orange */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 80%;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.group-done{
+    background:red; /* Vibrant orange */
+    color: white;
+    border: none;   
+    border-radius: 8px;
+    margin:15px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.group-done-completed{
+    background:rgb(0, 255, 21); /* Vibrant orange */
+    color: rgba(0, 0, 0, 0.359);
+    border: none;   
+    border-radius: 8px;
+    margin:15px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+/* Hover & Active Effects */
+.group-buttton:hover {
+    background: #e61919; /* Darker orange */
+    transform: scale(1.05);
+}
+.group-done:hover {
+    background: #c76262; /* Darker orange */
+    transform: scale(1.05);
+}
+.group-buttton:active {
+    transform: scale(0.95);
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .group {
+        width: 95%;
+    }
+
+    .group-warmup {
+        width: 95%;
+    }
+
+    .group-buttton {
+        width: 90%;
+    }
+}
+
+.group-progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar-container {
+  position: relative;
+  width: 80%;
+  height: 15px;
+  background: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, #4caf50, #2e8b57);
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.exercise-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.exercise-card {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.exercise-card:hover {
+  transform: scale(1.05);
+}
+
+.exercise-image {
+  width: 50%;
+  /* height: 220px; */
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+.exercise-content {
+  padding: 15px;
+}
+
+.exercise-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.exercise-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.exercise-duration,
+.exercise-level,
+.exercise-equipment {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.exercise-duration strong,
+.exercise-level strong,
+.exercise-equipment strong {
+  color: #222;
+}
